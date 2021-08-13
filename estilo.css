@@ -5,6 +5,7 @@ font-family: courier;
 font-size: 16px;
 margin: 0;
 padding: 0;
+box-sizing: border-box;
 
 }
 
@@ -25,12 +26,19 @@ padding: 0;
 
 #contenedor {
   width: 70%;
-  padding: 1em;
   text-align: left;
   border: 1px solid #ddd;
   margin: 0 auto;
 }
 
-.h1__contenedor {
+.h1__contenedor,.p__contenedor {
   font-size: 20px;
+  padding: 0 20px;
+
+}
+
+footer{
+  text-align: center;
+  background: chocolate;
+padding: 20px;  
 }
